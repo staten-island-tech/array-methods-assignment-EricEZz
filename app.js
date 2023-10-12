@@ -1,5 +1,6 @@
 const fruit = [
-{
+
+ {
     firstName:"Apple",
     lastName: "Jeo",
     Short: false,
@@ -8,6 +9,7 @@ const fruit = [
     round: true,
     is: ["red","solid"]
 },
+
 {
     firstName:"Pear",
     lastName: "Zaoni",
@@ -37,10 +39,12 @@ const fruit = [
     is: ["orange","peeled"]
 }
 ]
-
+const oij = fruit.forEach((fru) => console.log(fru.firstName));
+const pok = fruit.forEach((ok) => )
 //const array1 = [Apple.firstName,Pear.firstName,Banana.firstName,Orange.firstName];
-array1.forEach((fruit) => console.log(fruit.firstName))
 
+const shorts = fruit.filter((food) => food.long === true);
+console.log(shorts);
 /*const fruitArr = ['Apple','Pear','Banana','Orange'];
 fruitArr.forEach((fruit) => {
 console.log(fruitArr);

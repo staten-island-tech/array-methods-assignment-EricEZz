@@ -40,7 +40,7 @@ const fruit = [
 }
 ]
 const oij = fruit.forEach((fru) => console.log(fru.firstName));
-const pok = fruit.forEach((ok) => )
+const pok = fruit.forEach((ok) => ok.forEach() )
 //const array1 = [Apple.firstName,Pear.firstName,Banana.firstName,Orange.firstName];
 
 const shorts = fruit.filter((food) => food.long === true);
